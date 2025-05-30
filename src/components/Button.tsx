@@ -5,7 +5,7 @@ export const Button = (props: React.PropsWithChildren) => {
         <div className=" absolute inset-0 [mask-image:linear-gradient(to_bottom,black,transparent)]"></div>
         <div className=" absolute-inset-0 border-white/40 [mask-image:linear-gradient(to_top, black,transparent)"></div>
       </div>
-      <span>{props.children}t</span>
+      <span>{props.children}</span>
     </button>
   );
 };
